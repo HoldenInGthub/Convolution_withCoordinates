@@ -1,6 +1,11 @@
+README FOR V3.0
+
 I use MATLAB 2018a to write this code.
 
-The file An_Example.m teaches you how to use the function convolution_withcoordinates.m quickly.
+2018.11.21 I made a huge change to this function. Then it can calcuate both CT signal and DT signal.
+The file An_Example_DT.m and An_Example_CT.m teaches you how to use the function convolution_withcoordinates.m quickly.
+The file unit_step_signal.m is the function used by An_Example_CT.m and An_Example_DT.m. You can delete this function.
+
 The file convolution_withcoordinates.m is the main function to calculate the convolution.
 Other files are the functions needed by the main function convolution_withcoordinates.m.
 
